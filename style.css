@@ -27,6 +27,7 @@ body {
     padding-left: 15px;
     padding-right: 15px;
     max-width: 1000px;
+    min-width: 750px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -150,6 +151,7 @@ li,
 .testimonies > div,
 .cta {
     max-width: 1000px;
+    min-width: 750px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -212,6 +214,7 @@ li,
 .footer {
     background: #1f2937;
     text-align: center;
+    min-width: 750px;
     color: white;
     padding: 18px 0;
     font-size: 12px;
