@@ -1,5 +1,8 @@
-body {
+* {
     box-sizing: border-box;
+}
+
+body {
     font-family: "Roboto", sans-serif;
     margin: 0;
     min-height: 100vh;
@@ -144,7 +147,8 @@ li,
     min-width:100%;
 }
 
-.testimonies > div {
+.testimonies > div,
+.cta {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
@@ -170,6 +174,49 @@ li,
     width: 700px;
     text-align: end;
 }
+
+.flexbox {
+    display: flex;
+}
+
+.cta {
+    background: #3882f6;
+    padding: 30px 60px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex: 1 1 1000px;
+}
+
+.cta > .text {
+    color: white;
+}
+
+.cta-header {
+    font-weight: bold;
+}
+
+.cta-info {
+    font-size: 12px;
+}
+
+#cta-button {
+    background-color: #3882f6;
+    border: 2px solid white;
+    border-radius: 4px;
+    color: white;
+    padding: 0 16px;
+}
+
+.footer {
+    background: #1f2937;
+    text-align: center;
+    color: white;
+    padding: 18px 0;
+    font-size: 12px;
+}
+
 
 
 
